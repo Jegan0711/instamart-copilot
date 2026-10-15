@@ -450,9 +450,7 @@ The refund agent reads `data/instamart.db` (Part A) and reuses the retrieval fro
 | question | expected fact | answer given | doc retrieved |
 |---|---|---|---|
 | What delivery time makes a completed order eligible for a full refund? | more than 45 minutes | receives a full refund of the order amount. | True |
-| How soon is money returned when a payment fails but is deducted? | 48 hours | If a payment fails but money is deducted, the amount is returned automatically
- 
-1000 must be approved by a human support lead before money is returned. | True |
+| How soon is money returned when a payment fails but is deducted? | 48 hours | If a payment fails but money is deducted, the amount is returned automatically 1000 must be approved by a human support lead before money is returned. | True |
 
 ### The seven scenarios (outputs/agent_runs.jsonl)
 
